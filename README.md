@@ -19,4 +19,4 @@ Example:
 call hi.bat 0 "Enter password: " pass
 ```
 
-More examples you can find in **(EXAMPLE.bat)**.
+More examples you can find in *EXAMPLE.bat*.
