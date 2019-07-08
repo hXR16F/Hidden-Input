@@ -1,0 +1,3 @@
+@echo off&(if "%1" equ "0" set "._=30;40")&(if "%1" equ "1" set "._=34;44")&(if "%1" equ "2" set "._=32;42")&(if "%1" equ "3" set "._=36;46")&(if "%1" equ "4" set "._=31;41")&(if "%1" equ "5" set "._=35;45")&(if "%1" equ "6" set "._=33;43")&(if "%1" equ "7" set "._=37;47")&(if "%1" equ "8" set "._=90;100")&(if "%1" equ "9" set "._=94;104")&(if /i "%1" equ "a" set "._=92;102")&(if /i "%1" equ "b" set "._=96;106")&(if /i "%1" equ "c" set "._=91;101")&(if /i "%1" equ "d" set "._=95;105")&(if /i "%1" equ "e" set "._=93;103")&(if /i "%1" equ "f" set "._=97;107")
+ansicon -p&set /p ".__=%~2[0;%._%m"
+if not "%3" equ "" (set "%3=%.__%"&echo. | set /p ".=[0m") else (echo [0m%.__%)&ansicon -pu&exit /b
