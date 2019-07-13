@@ -10,7 +10,7 @@
 Syntax:
 
 ```batchfile
-call hi.bat <bgcolor> <text> <variable>
+call hi.bat <color> <text> <variable>
 ```
   
 Example:
